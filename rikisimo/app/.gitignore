@@ -1,0 +1,5 @@
+config/database.php
+tmp/*
+webroot/img/users/*
+webroot/img/nodes/*
+.DS_Store

@@ -1,0 +1,1746 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  Revision: 33 /app/views/helpers/rf_rating.php
+#  Revision: 7945 /app/webroot/test.php
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-06-30 23:44+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n!=1;"
+
+msgid "Cities"
+msgstr "Ciudades"
+
+msgid "To add a new listing just fill the form with the required data."
+msgstr "Debes rellenar el formulario con los datos correspondientes."
+
+msgid "Nearest"
+msgstr "Cercanos"
+
+msgid "Sign in with your email and password."
+msgstr "Entra con tu dirección de correo electrónico y tu contraseña."
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Application name"
+msgstr "Nombre de la aplicación"
+
+msgid "Application slogan"
+msgstr "Slogan de la aplicación"
+
+msgid "Admin email"
+msgstr "Email del administrador"
+
+msgid "System email"
+msgstr "Email del sistema"
+
+msgid "Google map key"
+msgstr "Clave de Google Maps"
+
+msgid "Bit.ly username"
+msgstr "Nombre de usuario de Bit.ly"
+
+msgid "Bit.ly API key"
+msgstr "Clave API de Bit.ly"
+
+msgid "Data saved"
+msgstr "Datos guardados"
+
+msgid "There are no listings"
+msgstr "No hay listados"
+
+msgid "Let others know what you think."
+msgstr "Escribe lo que piensas."
+
+msgid "Rated %s listing."
+msgstr "Ha valorado %s."
+
+msgid "Here you can enter some personal information."
+msgstr "Aquí puedes escribir tu información personal."
+
+msgid "Change your user password."
+msgstr "Cambia tu contraseña de usuario."
+
+msgid "Delete your account. This action can not be undone."
+msgstr "Borra tu cuenta. Esta acción no se puede deshacer."
+
+msgid "Add listing"
+msgstr "Añadir"
+
+msgid "Add a new listing"
+msgstr "Añadir"
+
+msgid "Rated"
+msgstr "Valorados"
+
+msgid "Listings I rated"
+msgstr "Los que he valorado"
+
+msgid "Top rated"
+msgstr "Los mejor valorados"
+
+msgid "Recently added"
+msgstr "Añadidos recientemente"
+
+msgid "Listings"
+msgstr "Listados"
+
+msgid "There are no photos"
+msgstr "No hay fotos"
+
+msgid "There are no reviews"
+msgstr "No hay críticas"
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "spa"
+msgstr "Español"
+
+msgid "eng"
+msgstr "Inglés"
+
+msgid "Manage categories"
+msgstr "Administrar categorías"
+
+msgid "Manage prices"
+msgstr "Administrar precios"
+
+msgid "Manage comments"
+msgstr "Administrar comentarios"
+
+msgid "Manage photos"
+msgstr "Administrar fotos"
+
+msgid "Ratings and friends"
+msgstr "Valoraciones y amigos"
+
+#: /controllers/comments_controller.php:39
+msgid "%s review"
+msgstr "Crítica %s"
+
+#: /controllers/comments_controller.php:44
+msgid "Review saved"
+msgstr "Crítica guardada"
+
+#: /controllers/comments_controller.php:49
+#: /views/nodes/view.ctp:142
+msgid "Add review"
+msgstr "Añadir crítica"
+
+#: /controllers/comments_controller.php:95
+msgid "Review deleted"
+msgstr "Crítica borrada"
+
+#: /controllers/messages_controller.php:71
+msgid "You have a new message in %s"
+msgstr "Tienes un nuevo mensaje en %s"
+
+#: /controllers/messages_controller.php:79
+msgid "Message saved"
+msgstr "Mensaje guardado"
+
+#: /controllers/messages_controller.php:127
+msgid "Message deleted"
+msgstr "Mensaje borrado"
+
+#: /controllers/nodes_controller.php:289
+msgid "Votes"
+msgstr "Votos"
+
+#: /controllers/users_controller.php:378
+msgid "User deleted"
+msgstr "Usuario borrado"
+
+#: /controllers/photos_controller.php:43
+msgid "Photo uploaded"
+msgstr "Foto guardad"
+
+#: /controllers/photos_controller.php:64
+msgid "The photo has been deleted"
+msgstr "La foto se ha borrado"
+
+#: /controllers/photos_controller.php:108
+#: /controllers/users_controller.php:231
+msgid "Photo deleted"
+msgstr "Foto borrada"
+
+#: /controllers/searches_controller.php:34
+#: /views/elements/menu.ctp:4
+#: /views/nodes/index.ctp:216
+#: /views/nodes/map.ctp:18
+#: /views/searches/index.ctp:2
+#: /views/searches/results.ctp:2
+msgid "Search"
+msgstr "Buscar"
+
+#: /controllers/searches_controller.php:48
+msgid "Search results"
+msgstr "Resultados de la búsqueda"
+
+
+#: /controllers/users_controller.php:40;41
+msgid "Sign in"
+msgstr "Entra"
+
+#: /controllers/users_controller.php:57;76
+#: /views/elements/admin_menu.ctp:7
+#: /views/elements/menu.ctp:5
+#: /views/users/index.ctp:1
+msgid "Users"
+msgstr "Usuarios"
+
+#: /controllers/users_controller.php:99
+#: /views/users/register.ctp:7
+msgid "Sign up"
+msgstr "Date de alta"
+
+#: /controllers/users_controller.php:100
+msgid "User sign up"
+msgstr "Alta de usuarios"
+
+msgid "User"
+msgstr "Usuario"
+
+#: /controllers/users_controller.php:166
+msgid "Profile saved"
+msgstr "Perfil guardado"
+
+#: /controllers/users_controller.php:174
+#: /views/elements/menu.ctp:12
+msgid "My Profile"
+msgstr "Mi perfil"
+
+#: /controllers/users_controller.php:175
+msgid "Edit user data"
+msgstr "Editar los datos de usuario"
+
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: /controllers/users_controller.php:193;393
+msgid "New password saved"
+msgstr "Contraseña guardada"
+
+#: /controllers/users_controller.php:213
+msgid "Photo saved"
+msgstr "Foto guardada"
+
+#: /controllers/users_controller.php:252
+msgid "Friend added to friend list"
+msgstr "Usuario añadido a tu lista de amigos"
+
+#: /controllers/users_controller.php:271
+msgid "User removed from friend list"
+msgstr "Usuario eleminado dde tu lista de amigos"
+
+#: /controllers/users_controller.php:286
+msgid "Atention!"
+msgstr "¡Atención!"
+
+#: /controllers/users_controller.php:300
+msgid "Password recovery"
+msgstr "Recuperación de contraseña"
+
+#: /controllers/users_controller.php:318
+msgid "Password Recovery for %s"
+msgstr "Recuperación de contraseña para %s"
+
+#: /controllers/users_controller.php:342
+msgid "Recover your password"
+msgstr "Recupera tu contraseña"
+
+#: /plugins/install/controllers/install_controller.php:30
+msgid "Rikisimo Installation"
+msgstr "Instalación de Rikisimo"
+
+#: /plugins/install/controllers/install_controller.php:63
+msgid "Could not write app/config/database.php file. Check permissions!"
+msgstr "No se ha podido escribir en app/config/database.php. Comprueba los permisos!"
+
+#: /plugins/install/controllers/install_controller.php:66
+msgid "Could not connect to database. Please make sure the database exists and the user has permissions to write the tables."
+msgstr "No se ha podido conectar a la base de datos. Asegurate de que la base de datos existe y que el usuario tiene permisos para crear tablas."
+
+msgid "Category"
+msgstr "Categoría"
+
+msgid "Add category"
+msgstr "Añadir categoría"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Posted"
+msgstr "Enviado"
+
+msgid "by"
+msgstr "por"
+
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: /views/comments/admin_index.ctp:21
+msgid "Delete review"
+msgstr "Borrar crítica"
+
+#: /views/comments/admin_index.ctp:26
+#: /views/messages/mailbox.ctp:59
+#: /views/nodes/admin_index.ctp:32
+msgid "« Previous "
+msgstr "« Anterior "
+
+#: /views/comments/admin_index.ctp:28
+#: /views/messages/mailbox.ctp:61
+#: /views/nodes/admin_index.ctp:34
+msgid " Next »"
+msgstr " Siguiente »"
+
+#: /views/comments/vote.ctp:3
+#: /views/nodes/view.ctp:186
+msgid "%s people like this"
+msgid_plural "%s people like this"
+msgstr[0] "A %s persona le gusta esto"
+msgstr[1] "A %s personas les gusta esto"
+
+#: /views/comments/vote.ctp:5
+#: /views/nodes/view.ctp:190
+msgid "Like"
+msgstr "Me gusta"
+
+#: /views/comments/write.ctp:12
+msgid "Write a review"
+msgstr "Escribe una crítica"
+
+#: /views/comments/write.ctp:16
+#: /views/elements/node_form.ctp:81
+#: /views/messages/write.ctp:18
+#: /views/photos/upload.ctp:24
+#: /views/users/edit.ctp:57
+#: /views/users/recover.ctp:30
+msgid "Submit"
+msgstr "Enviar"
+
+#: /views/comments/write.ctp:17
+#: /views/elements/node_form.ctp:82
+#: /views/messages/write.ctp:19
+#: /views/photos/upload.ctp:25
+#: /views/users/change_password.ctp:17
+#: /views/users/edit.ctp:58
+#: /views/users/recover.ctp:31
+msgid "cancel"
+msgstr "cancelar"
+
+#: /views/elements/admin_menu.ctp:5
+#: /views/nodes/view.ctp:240
+msgid "Photos"
+msgstr "Fotos"
+
+#: /views/elements/admin_menu.ctp:6
+#: /views/elements/small_comment.ctp:1
+msgid "Reviews"
+msgstr "Críticas"
+
+#: /views/elements/admin_menu.ctp:8
+msgid "Categories"
+msgstr "Categorías"
+
+#: /views/elements/admin_menu.ctp:9
+msgid "Prices"
+msgstr "Precios"
+
+#: /views/elements/admin_menu.ctp:10
+msgid "Close admin control panel"
+msgstr "Cerrar panel de control"
+
+#: /views/elements/menu.ctp:8
+msgid "Admin"
+msgstr "Admin"
+
+#: /views/elements/menu.ctp:11
+msgid "Messages"
+msgstr "Mensajes"
+
+#: /views/elements/menu.ctp:13
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: /views/elements/menu.ctp:16
+#: /views/users/login.ctp:14;21
+msgid "Login"
+msgstr "Entrar"
+
+#: /views/elements/menu.ctp:17
+#: /views/users/register.ctp:14
+msgid "Register"
+msgstr "Date de alta"
+
+#: /views/elements/node_form.ctp:22
+msgid "Country"
+msgstr "País"
+
+#: /views/elements/node_form.ctp:26
+#: /views/elements/search_form.ctp:4
+#: /views/nodes/index.ctp:120
+#: /views/nodes/search.ctp:5
+#: /views/users/view.ctp:78;210
+msgid "City"
+msgstr "Ciudad"
+
+#: /views/elements/node_form.ctp:34
+#: /views/photos/upload.ctp:18
+msgid "Description"
+msgstr "Descripción"
+
+#: /views/photos/upload.ctp:17
+msgid "Title"
+msgstr "Título"
+
+#: /views/photos/upload.ctp:23
+msgid "max size"
+msgstr "tamaño máximo"
+
+#: /views/elements/node_form.ctp:36
+#: /views/elements/search_form.ctp:7
+#: /views/nodes/view.ctp:31
+#: /views/prices/admin_add.ctp:4
+#: /views/prices/admin_edit.ctp:5
+#: /views/prices/admin_index.ctp:9
+msgid "Price"
+msgstr "Precio"
+
+#: /views/elements/node_form.ctp:68
+#: /views/helpers/google_map.php:420
+#: /views/nodes/index.ctp:75
+#: /views/nodes/view.ctp:45
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: /views/elements/node_form.ctp:77
+msgid "Separate each tag with a comma."
+msgstr "Separa cada etiqueta con una coma."
+
+#: /views/elements/search_form.ctp:11
+msgid "Search term"
+msgstr "Término de búsqueda"
+
+#: /views/elements/search_form.ctp:16
+msgid "search by address"
+msgstr "busca por dirección"
+
+#: /views/elements/small_comment.ctp:17
+#: /views/nodes/index.ctp:58
+#: /views/searches/results.ctp:51
+msgid "in"
+msgstr "en"
+
+#: /views/elements/email/text/new_message.ctp:10
+msgid "If you don't want to recive email notifications you can configure it in your user profile."
+msgstr "Si no quieres recibir notificaciones puedes configurarlo en tu perfil de usuario."
+
+#: /views/elements/email/text/new_message.ctp:1
+#: /views/elements/email/text/password_recovery.ctp:1
+msgid "Hi %s"
+msgstr "Hola %s"
+
+#: /views/elements/email/text/new_message.ctp:4
+msgid "You have a new private message in %s, you can read it by visiting this page:"
+msgstr "Tienes un mensaje privado en %s, puedes leerlo visitando esta página:"
+
+#: /views/elements/email/text/password_recovery.ctp:4
+msgid "If you need to change your %s user password login in this url:"
+msgstr "Si necesitas cambiar tu contraseña de %s puedes hacerlo en esta dirección:"
+
+#: /views/elements/email/text/password_recovery.ctp:10
+msgid "If you don't need to change your password just ignore this email."
+msgstr "Si no necesitas cambiar tu contraseña puedes ignorar este email."
+
+#: /views/errors/error404.ctp:5
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: /views/errors/error404.ctp:7
+msgid "Go home"
+msgstr "Ir a la página de inicio"
+
+#: /views/helpers/google_map.php:392
+msgid "Street view"
+msgstr "Street view"
+
+
+#: /views/nodes/index.ctp:49
+#: /views/searches/results.ctp:42
+msgid "Added by"
+msgstr "Añadido por"
+
+#: /views/helpers/rf_rating.php:99
+msgid "vote"
+msgstr "voto"
+
+#: /views/helpers/rf_rating.php:101
+msgid "votes"
+msgstr "votos"
+
+#: /views/helpers/rf_rating.php:119
+msgid "you didn't vote yet"
+msgstr "aún no has votado"
+
+#: /views/helpers/rf_rating.php:124
+msgid "remove my vote"
+msgstr "borrar mi voto"
+
+#: /views/layouts/admin_default.ctp:26
+msgid "Admin control panel"
+msgstr "Panel de control"
+
+#: /views/layouts/default.ctp:96
+#: /views/pages/about.ctp:2;5
+msgid "About %s"
+msgstr "Acerca de %s"
+
+#: /views/layouts/default.ctp:97
+msgid "Terms of service"
+msgstr "Condiciones de uso"
+
+#: /views/messages/mailbox.ctp:4;75
+msgid "Inbox"
+msgstr "Bandeja de entrada"
+
+#: /views/messages/mailbox.ctp:5
+msgid "From"
+msgstr "De"
+
+#: /views/messages/mailbox.ctp:8;71
+msgid "Outbox"
+msgstr "bandeja de salida"
+
+#: /views/messages/mailbox.ctp:9
+msgid "To"
+msgstr "Para"
+
+#: /views/messages/mailbox.ctp:16
+#: /views/messages/write.ctp:13
+msgid "Subject"
+msgstr "Asunto"
+
+#: /views/messages/write.ctp:14
+msgid "Message"
+msgstr "Mensaje"
+
+#: /views/messages/mailbox.ctp:18
+msgid "Date"
+msgstr "Fecha"
+
+#: /views/messages/mailbox.ctp:65
+msgid "There are no messages."
+msgstr "No hay mensajes."
+
+#: /views/messages/read.ctp:11
+msgid "Message sent by"
+msgstr "Mensaje enviado por"
+
+#: /views/messages/read.ctp:23
+msgid "Reply"
+msgstr "Contestar"
+
+#: /views/messages/read.ctp:26
+msgid "Delete Message"
+msgstr "Borrar mensaje"
+
+#: /views/messages/read.ctp:31;35
+#: /views/nodes/report.ctp:16
+msgid "Back"
+msgstr "Volver"
+
+#: /views/messages/write.ctp:3
+msgid "Write and send a private message."
+msgstr "Escribe y envia un mensaje privado."
+
+#: /views/messages/write.ctp:7
+msgid "Write a Message to"
+msgstr "Escribe un mensaje a"
+
+#: /views/nodes/home.ctp:19
+msgid "Top users"
+msgstr "Top usuarios"
+
+msgid "Review score"
+msgstr "Puntuación de críticas"
+
+#: /views/nodes/home.ctp:43
+msgid "See more"
+msgstr "Ver más"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "All"
+msgstr "Todo"
+
+#: /views/nodes/index.ctp:152
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: /views/nodes/map.ctp:2
+msgid "Search by address"
+msgstr "Buscar por dirección"
+
+#: /views/nodes/map.ctp:10
+msgid "Sorry, this address is unknown."
+msgstr "Lo siento, no he encontrado esta dirección."
+
+#: /views/nodes/view.ctp:283
+msgid "%.2f Km away"
+msgstr "a %.2f Km de distancia"
+
+#: /views/nodes/map_search.ctp:44
+msgid "Search again"
+msgstr "Buscar otra vez"
+
+#: /views/nodes/view.ctp:6
+msgid "Added"
+msgstr "Añadido"
+
+#: /views/nodes/view.ctp:23
+msgid "Last update"
+msgstr "Última actualización"
+
+#: /views/nodes/view.ctp:75
+msgid "Address"
+msgstr "Dirección"
+
+#: /views/nodes/view.ctp:88
+msgid "Phone"
+msgstr "Teléfono"
+
+#: /views/nodes/view.ctp:91
+msgid "Web"
+msgstr "Web"
+
+#: /views/nodes/view.ctp:173
+msgid "Submited by"
+msgstr "Enviado por"
+
+#: /views/nodes/view.ctp:201
+msgid "There are no reviews"
+msgstr "No hay críticas"
+
+#: /views/nodes/view.ctp:210
+msgid "Want to go here"
+msgstr "Quieren ir aquí"
+
+#: /views/nodes/view.ctp:214
+msgid "Remove me"
+msgstr "Bórrame"
+
+#: /views/nodes/view.ctp:219
+msgid "Add me"
+msgstr "Añádeme"
+
+#: /views/nodes/view.ctp:244
+msgid "Upload a photo"
+msgstr "Sube una foto"
+
+#: /views/nodes/vvotes.ctp:14
+#: /views/users/view.ctp:77
+msgid "Vote"
+msgstr "Voto"
+
+#: /views/photos/admin_index.ctp:9
+msgid "delete my photo"
+msgstr "borrar mi foto"
+
+#: /views/photos/upload.ctp:3
+msgid "Upload a photo to"
+msgstr "Subir una foto a"
+
+#: /views/photos/upload.ctp:8
+msgid "Upload photo"
+msgstr "Subir foto"
+
+#: /views/photos/view.ctp:2
+msgid "Photos of"
+msgstr "Fotos de"
+
+#: /views/photos/view.ctp:9
+msgid "Photo of"
+msgstr "Foto de"
+
+#: /views/photos/view.ctp:12
+msgid "submited by"
+msgstr "enviado por"
+
+#: /views/photos/view.ctp:16
+msgid "delete this photo"
+msgstr "borrar esta foto"
+
+#: /views/prices/admin_index.ctp:4
+msgid "Add price tag"
+msgstr "Añadir precio"
+
+#: /views/searches/results.ctp:73
+msgid "There are no results"
+msgstr "No hay resultados"
+
+
+#: /views/users/admin_change_password.ctp:7
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: /views/users/admin_change_password.ctp:10
+#: /views/users/change_password.ctp:10
+msgid "New Password Confirmation"
+msgstr "Confirma la nueva contraseña"
+
+#: /views/users/admin_change_password.ctp:13
+msgid "Save"
+msgstr "Guardar"
+
+#: /views/users/admin_index.ctp:11
+msgid "Password"
+msgstr "Contraseña"
+
+#: /views/users/change_password.ctp:3
+msgid "Here you can change your password."
+msgstr "Aquí puedes cambiar tu contraseña"
+
+#: /views/users/change_password.ctp:6
+msgid "Change User Password"
+msgstr "Cambia la contraseña"
+
+#: /views/users/code_login.ctp:2
+#: /views/users/recover.ctp:9
+msgid "Password recover"
+msgstr "Recupera la contraseña"
+
+#: /views/users/code_login.ctp:6
+msgid "You are now logged in, now you can change your password."
+msgstr "Ahora puedes cambiar tu contraseña."
+
+#: /views/users/code_login.ctp:19
+msgid "Sorry, the login code is not valid"
+msgstr "Lo siento, el código de entrada no es válido"
+
+#: /views/users/delete_user.ctp:2
+msgid "You are going to delete your account"
+msgstr "Vas a borrar tu cuenta de usuario"
+
+#: /views/users/delete_user.ctp:4
+msgid "You are going to delete your user account, your private messages and personal data will be deleted."
+msgstr "Vas a borrar tu cuenta de usuario, tus mensajes privados y datos personales serán borrados"
+
+#: /views/users/delete_user.ctp:16
+msgid "Do you want to continue?"
+msgstr "Quieres continuar"
+
+#: /views/users/delete_user.ctp:21
+msgid "No, I don't want to delete my account"
+msgstr "No, no quiero borrar mi cuenta"
+
+#: /views/users/delete_user.ctp:27
+msgid "Yes, delete my account"
+msgstr "Si, quiero borrar mi cuenta"
+
+#: /views/users/edit.ctp:4
+msgid "Here you can change your user name, email, photo and description."
+msgstr "Aquí puedes cambiar tu nombre de usuario, email, foto y descripción."
+
+#: /views/users/edit.ctp:12
+msgid "Upload your photo"
+msgstr "Sube tu foto"
+
+#: /views/users/edit.ctp:18
+msgid "Upload my photo"
+msgstr "Sube mi foto"
+
+#: /views/users/edit.ctp:29
+msgid "Delete my photo"
+msgstr "Borra mi foto"
+
+
+#: /views/users/edit.ctp:44
+msgid "Here you can enter some personal information"
+msgstr "Aquí puedes introducir tus datos personales"
+
+#: /views/users/edit.ctp:52
+msgid "Send me an email when someone sends me a private message"
+msgstr "Envíame una notificación por email cuando alguien me envíe un mensaje privado"
+
+#: /views/users/edit.ctp:65
+msgid "Delete this account"
+msgstr "Borrar esta cuenta"
+
+#: /views/users/index.ctp:31
+msgid "There are no users."
+msgstr "No hay usuarios."
+
+#: /views/users/login.ctp:6
+msgid "Don't you have an account?"
+msgstr "¿no tienes cuenta?"
+
+
+msgid "or"
+msgstr "o"
+
+# Time
+
+msgid "%s ago"
+msgstr "hace %s"
+
+msgid "on"
+msgstr "el"
+
+msgid "on %s"
+msgstr "el %s"
+
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "segundo"
+msgstr[1] "segundos"
+
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuto"
+msgstr[1] "minutos"
+
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "hora"
+msgstr[1] "horas"
+
+msgid "day"
+msgid_plural "days"
+msgstr[0] "día"
+msgstr[1] "días"
+
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "semana"
+msgstr[1] "semanas"
+
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mes"
+msgstr[1] "meses"
+
+msgid "year"
+msgid_plural "years"
+msgstr[0] "año"
+msgstr[1] "años"
+
+msgid "Today, %s"
+msgstr "Hoy, %s"
+
+msgid "Yesterday, %s"
+msgstr "Ayer, %s"
+
+
+#: /views/users/login.ctp:18
+msgid "Email"
+msgstr "Email"
+
+#: /views/users/login.ctp:20
+msgid "Forgot your password?"
+msgstr "¿has olvidado tu contraseña?"
+
+#: /views/users/recover.ctp:4
+msgid "If you forgot your password tell us your email address and we'll help you recover it."
+msgstr "Si has olvidado tu contraseña introduce tu email y te ayudaremos a recuperarla."
+
+
+#: /views/users/recover.ctp:17
+msgid "We sent you an email"
+msgstr "Te hemos enviado un email"
+
+#: /views/users/recover.ctp:20
+msgid "Sorry this email is not being used for any user"
+msgstr "Lo siento, este email no está registrado"
+
+#: /views/users/register.ctp:3
+msgid "Sign up now, it is completely free"
+msgstr "Date de alta ahora, es gratis"
+
+#: /views/users/register.ctp:11
+msgid "Name"
+msgstr "Nombre"
+
+#: /views/users/view.ctp:271
+msgid "%s's friends"
+msgstr "Amigos de %s"
+
+#: /views/users/view.ctp:250
+msgid "%s's photos"
+msgstr "Fotos de %s"
+
+#: /views/users/view.ctp:13
+msgid "Joined this site"
+msgstr "Se unió"
+
+#: /views/users/view.ctp:39
+msgid "Edit my profile"
+msgstr "Editar mi perfil"
+
+#: /views/users/view.ctp:43
+msgid "Send a Message"
+msgstr "Enviar un mensaje"
+
+#: /views/users/view.ctp:47
+msgid "Add to My Friend List"
+msgstr "Añadir a mi lista de amigos"
+
+#: /views/users/view.ctp:52
+msgid "Remove from My Friend List"
+msgstr "Borrar de mi lista de amigos"
+
+#: /views/users/view.ctp:201
+msgid "I want to go"
+msgstr "Quiero ir"
+
+#: /views/users/view.ctp:203
+msgid "wants to go to"
+msgstr "Quiere ir"
+
+#: /views/users/view.ctp:248
+msgid "My friends"
+msgstr "Mis amigos"
+
+#: /views/users/view.ctp:269
+msgid "My photos"
+msgstr "Mis fotos"
+
+# example in map search
+
+msgid "(ex. Via Laietana 5, Barcelona)"
+msgstr "(ej. Via Laietana 5, Barcelona)"
+
+msgid "It seems like this has been submited before"
+msgstr "Parece que ha sido enviado anteriormente"
+
+# error messages
+
+msgid "Name must be at least 2 characters long"
+msgstr "El nombre debe tener al menos 2 carácteres"
+
+msgid "Please write the address"
+msgstr "Por favor escribe la dirección"
+
+msgid "Please enter a valid web address"
+msgstr "Por favor escribe una dirección web válida"
+
+msgid "Review must be at least 2 characters long"
+msgstr "La crítica debe tener al menos 2 carácteres"
+
+msgid "Pleas write the subject"
+msgstr "Por favor escribe el asunto"
+
+msgid "Please write your message"
+msgstr "Por favor escribe tu mensaje"
+
+msgid "Please write a title"
+msgstr "Por favor escribe un título"
+
+msgid "Price must be at least 2 characters long"
+msgstr "El precio debe tener al menos 2 carácteres"
+
+msgid "Tag must be at least 2 characters long"
+msgstr "La etiqueta debe tener al menos 2 carácteres"
+
+msgid "Please write your desired username"
+msgstr "Por favor escribe el nombre de usuario deseado"
+
+msgid "Please write your desired password"
+msgstr "Por favor escribe la contraseña que deseas"
+
+msgid "Only alphanumeric characters"
+msgstr "Sólo carácteres alfanuméricos"
+
+msgid "Please enter a valid email address"
+msgstr "Por favor escribe una dirección de email válida"
+
+msgid "This email is already in use"
+msgstr "Esta dirección de email ya está registrada"
+
+msgid "Please write a description"
+msgstr "Por favor escribe una descripción"
+
+msgid "Please select the price"
+msgstr "Por favor selecciona el precio"
+
+msgid "Please select the category"
+msgstr "Por favor selecciona la categoría"
+
+msgid "An error occurred"
+msgstr "Ha ocurrido un error"
+
+# Badges
+
+msgid "Badges"
+msgstr "Medallas"
+
+msgid "You get this badge when you submit %d or more reviews."
+msgstr "Consigues esta medalla cuando has hecho %d o más críticias."
+
+msgid "You get this badge when you have %d peole or more to like your reviews."
+msgstr "Consigues esta medalla cuando tus críticas gustan a %d o más personas."
+
+msgid "You get this badge when you have rated %d or more listings."
+msgstr "Consigues esta medalla cuando has valorado %d o más listados."
+
+msgid "You get this badge when you have added %d or more listings."
+msgstr "Consigues esta medalla cuando has añadido %d o más listados."
+
+# Countries
+
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+msgid "Aland islands"
+msgstr "Islas Gland"
+
+msgid "Albania"
+msgstr "Albania"
+
+msgid "Algeria"
+msgstr "Algeria"
+
+msgid "American samoa"
+msgstr ""
+
+msgid "Andorra"
+msgstr "Andorra"
+
+msgid "Angola"
+msgstr "Angola"
+
+msgid "Anguilla"
+msgstr "Anguilla"
+
+msgid "Antarctica"
+msgstr "Antártida"
+
+msgid "Antigua and barbuda"
+msgstr "Antigua y barbuda"
+
+msgid "Argentina"
+msgstr "Argentina"
+
+msgid "Armenia"
+msgstr "Armenia"
+
+msgid "Aruba"
+msgstr "Aruba"
+
+msgid "Australia"
+msgstr "Australia"
+
+msgid "Austria"
+msgstr "Austria"
+
+msgid "Azerbaijan"
+msgstr "Azerbaiyán"
+
+msgid "Bahamas"
+msgstr "Bahamas"
+
+msgid "Bahrain"
+msgstr "Bahréin"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Barbados"
+msgstr "Barbados"
+
+msgid "Belarus"
+msgstr "Bielorrusia"
+
+msgid "Belgium"
+msgstr "Bélgica"
+
+msgid "Belize"
+msgstr "Belice"
+
+msgid "Benin"
+msgstr "Benin"
+
+msgid "Bermuda"
+msgstr "Bermudas"
+
+msgid "Bhutan"
+msgstr "Bhután"
+
+msgid "Bolivia"
+msgstr "Bolivia"
+
+msgid "Bosnia and herzegovina"
+msgstr "Bosnia y Herzegovina"
+
+msgid "Botswana"
+msgstr "Botsuana"
+
+msgid "Bouvet island"
+msgstr "Isla Bouvet"
+
+msgid "Brazil"
+msgstr "Brasil"
+
+msgid "British indian ocean territory"
+msgstr ""
+
+msgid "Brunei darussalam"
+msgstr "Brunéi"
+
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+msgid "Burkina faso"
+msgstr "Burkina Faso"
+
+msgid "Burundi"
+msgstr "Burundi"
+
+msgid "Cambodia"
+msgstr "Camboya"
+
+msgid "Cameroon"
+msgstr "Camerún"
+
+msgid "Canada"
+msgstr "Canada"
+
+msgid "Cape verde"
+msgstr "Cabo verde"
+
+msgid "Cayman islands"
+msgstr "Islas Caimán"
+
+msgid "Central african republic"
+msgstr "República centroafricana"
+
+msgid "Chad"
+msgstr "Chad"
+
+msgid "Chile"
+msgstr "Chile"
+
+msgid "China"
+msgstr "China"
+
+msgid "Christmas island"
+msgstr "Isla de Navidad"
+
+msgid "Cocos (keeling) islands"
+msgstr "Islas Cocos"
+
+msgid "Colombia"
+msgstr "Colombia"
+
+msgid "Comoros"
+msgstr ""
+
+msgid "Congo"
+msgstr "Congo"
+
+msgid "Congo, the democratic republic of the"
+msgstr "República democrática del Congo"
+
+msgid "Cook islands"
+msgstr "Islas Cook"
+
+msgid "Costa rica"
+msgstr "Costa Rica"
+
+msgid "Cote d'ivoire"
+msgstr ""
+
+msgid "Croatia"
+msgstr "Croacia"
+
+msgid "Cuba"
+msgstr "Cuba"
+
+msgid "Cyprus"
+msgstr "Chipre"
+
+msgid "Czech republic"
+msgstr "República Checa"
+
+msgid "Denmark"
+msgstr "Dinamarca"
+
+msgid "Djibouti"
+msgstr ""
+
+msgid "Dominica"
+msgstr "Dominica"
+
+msgid "Dominican republic"
+msgstr "República Dominicana"
+
+msgid "Ecuador"
+msgstr "Ecuador"
+
+msgid "Egypt"
+msgstr "Egipto"
+
+msgid "El salvador"
+msgstr "El Salvador"
+
+msgid "Equatorial guinea"
+msgstr "Guinea Ecuatorial"
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr "Estonia"
+
+msgid "Ethiopia"
+msgstr "Etiopía"
+
+msgid "Falkland islands (malvinas)"
+msgstr ""
+
+msgid "Faroe islands"
+msgstr ""
+
+msgid "Fiji"
+msgstr "Fiji"
+
+msgid "Finland"
+msgstr "Finlandia"
+
+msgid "France"
+msgstr "Francia"
+
+msgid "French guiana"
+msgstr "Guayana Francesa"
+
+msgid "French polynesia"
+msgstr "Polinesia Francesa"
+
+msgid "French southern territories"
+msgstr "Territorios Australes Franceses"
+
+msgid "Gabon"
+msgstr "Gabón"
+
+msgid "Gambia"
+msgstr "Gambia"
+
+msgid "Georgia"
+msgstr "Georgia"
+
+msgid "Germany"
+msgstr "Alemania"
+
+msgid "Ghana"
+msgstr "Ghana"
+
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+msgid "Greece"
+msgstr "Grecia"
+
+msgid "Greenland"
+msgstr ""
+
+msgid "Grenada"
+msgstr "Granada"
+
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+msgid "Guam"
+msgstr "Guam"
+
+msgid "Guatemala"
+msgstr "Guatemala"
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr "Guinea"
+
+msgid "Guinea-bissau"
+msgstr "Ginea-Bissau"
+
+msgid "Guyana"
+msgstr "Guyana"
+
+msgid "Haiti"
+msgstr "Haiti"
+
+msgid "Heard island and mcdonald islands"
+msgstr "Islas Heard y McDonald"
+
+msgid "Holy see (vatican city state)"
+msgstr "Ciudad del Vaticano"
+
+msgid "Honduras"
+msgstr "Honduras"
+
+msgid "Hong kong"
+msgstr "Hong Kong"
+
+msgid "Hungary"
+msgstr "Hungría"
+
+msgid "Iceland"
+msgstr "Islandia"
+
+msgid "India"
+msgstr "India"
+
+msgid "Indonesia"
+msgstr "Indonesia"
+
+msgid "Iran, islamic republic of"
+msgstr "Irán"
+
+msgid "Iraq"
+msgstr "Iraq"
+
+msgid "Ireland"
+msgstr "Irlanda"
+
+msgid "Isle of man"
+msgstr ""
+
+msgid "Israel"
+msgstr "Israel"
+
+msgid "Italy"
+msgstr "Italia"
+
+msgid "Jamaica"
+msgstr "Jamaica"
+
+msgid "Japan"
+msgstr "Japón"
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr "Jordania"
+
+msgid "Kazakhstan"
+msgstr "Kazajstán"
+
+msgid "Kenya"
+msgstr "Kenia"
+
+msgid "Kiribati"
+msgstr "Kiribati"
+
+msgid "Korea, democratic people's republic of"
+msgstr "Corea del Norte"
+
+msgid "Korea, republic of"
+msgstr "Corea del Sur"
+
+msgid "Kuwait"
+msgstr "Kuwait"
+
+msgid "Kyrgyzstan"
+msgstr "Kirguistán"
+
+msgid "Lao people's democratic republic"
+msgstr "Laos"
+
+msgid "Latvia"
+msgstr "Letonia"
+
+msgid "Lebanon"
+msgstr "Líbano"
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr "Liberia"
+
+msgid "Libyan arab jamahiriya"
+msgstr "Libia"
+
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+msgid "Lithuania"
+msgstr "Lituania"
+
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+msgid "Macao"
+msgstr "Macao"
+
+msgid "Macedonia, the former yugoslav republic of"
+msgstr "ARY Macedonia"
+
+msgid "Madagascar"
+msgstr "Madagascar"
+
+msgid "Malawi"
+msgstr "Malawi"
+
+msgid "Malaysia"
+msgstr "Malasia"
+
+msgid "Maldives"
+msgstr "Maldivas"
+
+msgid "Mali"
+msgstr "Malí"
+
+msgid "Malta"
+msgstr "Malta"
+
+msgid "Marshall islands"
+msgstr "Islas Marshall"
+
+msgid "Martinique"
+msgstr "Martinica"
+
+msgid "Mauritania"
+msgstr "Mauritania"
+
+msgid "Mauritius"
+msgstr "Mauricio"
+
+msgid "Mayotte"
+msgstr "Mayotte"
+
+msgid "Mexico"
+msgstr "México"
+
+msgid "Micronesia, federated states of"
+msgstr "Micronesia"
+
+msgid "Moldova"
+msgstr "Moldavia"
+
+msgid "Monaco"
+msgstr "Mónaco"
+
+msgid "Mongolia"
+msgstr "Mongolia"
+
+msgid "Montenegro"
+msgstr "Montenegro"
+
+msgid "Montserrat"
+msgstr "Montserrat"
+
+msgid "Morocco"
+msgstr "Marruecos"
+
+msgid "Mozambique"
+msgstr "Mozambique"
+
+msgid "Myanmar"
+msgstr "Myanmar"
+
+msgid "Namibia"
+msgstr "Nambia"
+
+msgid "Nauru"
+msgstr "Nauru"
+
+msgid "Nepal"
+msgstr "Nepal"
+
+msgid "Netherlands"
+msgstr "Países Bajos"
+
+msgid "Netherlands antilles"
+msgstr "Antillas Holandesas"
+
+msgid "New caledonia"
+msgstr "Nueva Caledonia"
+
+msgid "New zealand"
+msgstr "Nueva Zelanda"
+
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+msgid "Niger"
+msgstr "Níger"
+
+msgid "Nigeria"
+msgstr "Nigeria"
+
+msgid "Niue"
+msgstr "Niue"
+
+msgid "Norfolk island"
+msgstr "Isla Norfolk"
+
+msgid "Northern mariana islands"
+msgstr ""
+
+msgid "Norway"
+msgstr "Noruega"
+
+msgid "Oman"
+msgstr "Omán"
+
+msgid "Pakistan"
+msgstr "Pakistán"
+
+msgid "Palau"
+msgstr "Palau"
+
+msgid "Palestinian territory, occupied"
+msgstr "Palestina"
+
+msgid "Panama"
+msgstr "Panamá"
+
+msgid "Papua new guinea"
+msgstr "Papúa Nueva Guinea"
+
+msgid "Paraguay"
+msgstr "Paraguay"
+
+msgid "Peru"
+msgstr "Perú"
+
+msgid "Philippines"
+msgstr "Filipinas"
+
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+msgid "Poland"
+msgstr "Polonia"
+
+msgid "Portugal"
+msgstr "Portugal"
+
+msgid "Puerto rico"
+msgstr "Puerto Rico"
+
+msgid "Qatar"
+msgstr "Qatar"
+
+msgid "Reunion"
+msgstr "Reunión"
+
+msgid "Romania"
+msgstr "Rumania"
+
+msgid "Russian federation"
+msgstr "Rusia"
+
+msgid "Rwanda"
+msgstr "Ruanda"
+
+msgid "Saint barthelemy"
+msgstr ""
+
+msgid "Saint helena"
+msgstr ""
+
+msgid "Saint kitts and nevis"
+msgstr ""
+
+msgid "Saint lucia"
+msgstr "Santa Lucía"
+
+msgid "Saint martin"
+msgstr ""
+
+msgid "Saint pierre and miquelon"
+msgstr "San Pedro y Miquelón"
+
+msgid "Saint vincent and the grenadines"
+msgstr "San Vicente y las Granadinas"
+
+msgid "Samoa"
+msgstr "Samoa"
+
+msgid "San marino"
+msgstr "San Marino"
+
+msgid "Sao tome and principe"
+msgstr ""
+
+msgid "Saudi arabia"
+msgstr "Arabia Saudí"
+
+msgid "Senegal"
+msgstr "Senegal"
+
+msgid "Serbia"
+msgstr "Serbia"
+
+msgid "Seychelles"
+msgstr "SeyChelles"
+
+msgid "Sierra leone"
+msgstr "Sierra Leona"
+
+msgid "Singapore"
+msgstr "Singapur"
+
+msgid "Slovakia"
+msgstr "Eslovaquia"
+
+msgid "Slovenia"
+msgstr "Eslovenia"
+
+msgid "Solomon islands"
+msgstr "Islas Salomón"
+
+msgid "Somalia"
+msgstr "Somalia"
+
+msgid "South africa"
+msgstr "Sudáfrica"
+
+msgid "South georgia and the south sandwich islands"
+msgstr "Islas Georgias del Sur y Sandwich del Sur"
+
+msgid "Spain"
+msgstr "España"
+
+msgid "Sri lanka"
+msgstr "Sri Lanka"
+
+msgid "Sudan"
+msgstr "Sudán"
+
+msgid "Suriname"
+msgstr "Surinam"
+
+msgid "Svalbard and jan mayen"
+msgstr "Svalbard y Jan Mayen"
+
+msgid "Swaziland"
+msgstr ""
+
+msgid "Sweden"
+msgstr "Suecia"
+
+msgid "Switzerland"
+msgstr "Suiza"
+
+msgid "Syrian arab republic"
+msgstr ""
+
+msgid "Taiwan, province of china"
+msgstr "Taiwán"
+
+msgid "Tajikistan"
+msgstr "Tayikistán"
+
+msgid "Tanzania, united republic of"
+msgstr "Tanzania"
+
+msgid "Thailand"
+msgstr "Tailandia"
+
+msgid "Timor-leste"
+msgstr "Timor Oriental"
+
+msgid "Togo"
+msgstr "Togo"
+
+msgid "Tokelau"
+msgstr "Tokelau"
+
+msgid "Tonga"
+msgstr "Tonga"
+
+msgid "Trinidad and tobago"
+msgstr "Trinidad y Tobago"
+
+msgid "Tunisia"
+msgstr "Túnez"
+
+msgid "Turkey"
+msgstr "Turquía"
+
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+msgid "Turks and caicos islands"
+msgstr "Islas Turcas y Caicos"
+
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+msgid "Uganda"
+msgstr "Uganda"
+
+msgid "Ukraine"
+msgstr "Ucrania"
+
+msgid "United arab emirates"
+msgstr "Emiratos Árabes Unidos"
+
+msgid "United kingdom"
+msgstr "Reino Unido"
+
+msgid "United states"
+msgstr "Estados Unidos"
+
+msgid "United states minor outlying islands"
+msgstr ""
+
+msgid "Uruguay"
+msgstr "Uruguay"
+
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+msgid "Venezuela"
+msgstr "Venezuela"
+
+msgid "Viet nam"
+msgstr "Vietnam"
+
+msgid "Virgin islands, british"
+msgstr "Islas Vírgenes Británicas"
+
+msgid "Virgin islands, u.s."
+msgstr "Islas Vírgenes de los Estados Unidos"
+
+msgid "Wallis and futuna"
+msgstr "Wallis y Futura"
+
+msgid "Western sahara"
+msgstr "Sahara Occidental"
+
+msgid "Yemen"
+msgstr "Yemen"
+
+msgid "Zambia"
+msgstr "Zambia"
+
+msgid "Zimbabwe"
+msgstr "Zimbabue"

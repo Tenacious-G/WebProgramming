@@ -1,0 +1,290 @@
+/*** ADMIN ***/
+* {
+margin:0;
+padding:0;
+}
+
+body {
+	background-color: #fff;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	color: #000;
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+h1 {
+font-size: 18px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #33a;
+}
+a:hover {
+	color: #55f;
+}
+
+/* Tables */
+table {
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	background-color: #f2f2f2;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	text-align: center;
+}
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a:hover {
+	background-color: #ccc;
+	color: #333;
+	text-decoration: none;
+}
+table tr td {
+	background: #fff;
+	border-right: 1px solid #ccc;
+	padding: 4px;
+	text-align: center;
+	vertical-align: top;
+}
+table tr.altrow td {
+	background: #f4f4f4;
+}
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+td.actions a {
+	display: inline;
+	margin: 0px 6px;
+}
+
+/* Forms */
+form {
+	clear: both;
+	padding: 0;
+	width: 450px;
+}
+
+label {
+	display: block;
+	font-size: 110%;
+	padding-right: 20px;
+	margin-top: 10px;
+}
+input, textarea {
+	clear: both;
+	display: block;
+	font-size: 140%;
+	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+	padding: 2px;
+	width: 100%;
+}
+
+select {
+	clear: both;
+	vertical-align: text-bottom;
+ 	width: 100%;
+	font-size: 140%;
+}
+
+option {
+	font-size: 120%;
+	padding: 0 3px;
+}
+input[type=checkbox] {
+	clear: left;
+	float: left;
+	margin: 0px 6px 7px 2px;
+	width: auto;
+}
+input[type=submit] {
+	display: inline;
+	font-size: 110%;
+	padding: 2px 5px;
+	width: auto;
+	vertical-align: bottom;
+}
+input[type=hidden] {
+padding: 0px;
+}
+
+
+/** **/
+
+#content_home {
+padding: 10px;
+}
+h1#header {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #222;
+	margin: 0px;
+	padding: 10px;
+}
+/** TABLE **/
+
+table#admin {
+	width: 100%;
+}
+table#admin thead th {
+border: 0px;
+background-color: #fff;
+border-bottom: 1px dotted #ccc;
+padding: 5px;
+}
+
+table#admin, table#admin td {
+padding: 5px;
+margin: 0px;
+border: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+table#admin tr.line1 td{
+background-color: #fff;
+}
+
+table#admin tr.line2 td{
+background-color: #eef4fa;
+}
+
+table#admin td.name {
+text-align: left;
+}
+
+table#admin td.id {
+color: #999;
+width: 50px;
+}
+
+table#admin td.icon {
+width: 50px;
+}
+
+.info {
+	font-size: 16px;
+	float: left;
+	margin-right: 9px;
+	padding-top: 30px;
+	vertical-align: middle; 
+	width: 415px;
+}
+
+.info p {
+	margin-bottom: 15px;
+}
+
+.form {
+	float: right;
+	padding-left: 25px;
+	width: 450px; 
+}
+
+ div.submit {
+	margin-top: 20px;
+}
+ div.submit input {
+	float: left;
+	margin-right: 5px;
+}
+ div.submit p.backlink {
+	float: left;
+}
+
+#flashMessage  {
+	background-color: #FEFBAF;
+	border: 1px solid #FFF98C;
+	color: #FB9765;
+	padding: 3px;
+	text-align: center;
+}
+
+/*** MENU ***/
+
+#admin-menu {
+width:220px;
+float:left;
+background-color: #ccc;
+margin-right:10px;
+}
+
+#admin-menu li, #admin-menu ul {
+margin:0px;
+padding:0px;
+list-style: none;
+}
+
+#admin-menu a {
+display: block;
+width: 200px;
+padding: 10px;;
+border-bottom: 1px solid #fff;
+color: #000;
+text-decoration: none;
+background: #fafafa;
+}
+
+#admin-menu a:hover {
+background-color: #eef4fa;
+}
+
+/** 
+**/
+ul {
+list-style: none;	
+}
+ul.autocomplete li {
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+/** AUTOCOMPLETE **/
+
+div.auto_complete    {
+	background-color :white;
+	border           :1px solid #888;
+    margin           :0px;
+    padding          :0px;
+	position         :absolute;
+	width            :250px;
+} 
+li.selected    { background-color: #ffb; }
+
+#admin-content {
+position: relative;
+float: left;
+width: 700px;
+padding-left:20px;
+}
+
+.comment-box {
+	background-color: #eef4fa;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.form-box {
+	padding: 5px;
+	background-color: #efefef;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+} 

@@ -1,0 +1,48 @@
+2011.03.31
+- fix bug deleting user profile photo
+- update to cakephp 1.3.8
+- fix bug with private messages
+- new design
+- remove suggestions feature
+- remove facebook integration
+- remove attendees block
+- fix bug on ajax method in review 'likes'
+- fix bug in password recovery login
+- fix autocomplete in admin panel forms
+- fix bug in email notifications subject
+- add a default set of categories
+- update documentation
+- update spanish translation 
+- Fix bug with google maps street view showing the 'no street view' message.
+- Updated text strings to show the current node name
+- Allow to change node names so it is possible to rate anything not just restaurants.
+- Remove upload component as it is not being used anymore
+- Fix bug that displayed certain characters as html entities
+
+2011.01.21
+- Fix bug when creating url slugs with all non roman characters
+
+2011.01.10
+- settings are now in the admin panel and the app_settings is no longer needed 
+
+5.8.2010
+- fix bug with user score
+
+8.7.2010
+- Remove groups
+- Add Bit.ly integration to shorten urls
+- Add Facebook integration:
+	- Users can login with facebook
+	- A link to the user's wall is posted when they vote a restaurant
+	- A link to the user's wall is posted when they write a review
+- Users can like other user's reviews.
+- User score and badges based on 'review likes' and restaurants voted
+- Add categories for restaurants
+- Add price tag for restaurants
+- New search feature for restaurants
+- Users can now add a description in their profile
+- Restaurant photos can now have a description
+- New admin control panel
+
+19.5.2010
+- Fix bug displaying dates in mailbox

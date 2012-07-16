@@ -1,0 +1,1 @@
+<?php echo $rfRating->ratingBar($info,true,true); ?>

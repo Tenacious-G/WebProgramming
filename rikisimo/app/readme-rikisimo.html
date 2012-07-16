@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		body {
+			background-color: #fff;
+			color: #000;
+			font-family: arial, verdana, sans-serif;
+			font-size: 14px;
+		}
+		
+		a {
+			color: #000;
+		}
+		
+		a:hover {
+			color: #f00;
+		}
+		
+		pre {
+			font-family: courier, monospace;
+			font-size: 12px;
+		}
+
+		.content {
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+	</style>
+	<title>Rikisimo - PHP rating network manual</title>
+</head>
+<body>
+<div class="content">
+	
+<!-- LICENSE -->
+<h2>License</h2>
+<pre>
+The MIT License
+
+Copyright (c) 2008 Ivan Ribas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+</pre>
+
+<!-- IN SHORT -->
+<h2>In short</h2>
+<ol>
+	<li>You can modify the software.</li>
+	<li>You don't need to share the modifications you made to it.</li>
+	<li>You can resell the software.</li>
+</ol>
+
+<!-- GET Rikisimo -->
+<h2>Get Rikisimo</h2>
+<p>
+You can get the latest Rikisimo version at <a href="http://ivanribas.com/rikisimo/">http://ivanribas.com/rikisimo/</a>.
+</p>
+<p>
+Subscribe to the mailing list to be updated on new versions and special offers.
+</p>	
+
+<!-- REQUIREMENTS -->		
+<h2>Requirements</h2>
+<ul>
+	<li>Apache server on Linux.</li>
+	<li>mod_rewrite.</li>
+	<li>PHP5 or greater with GD library.</li>
+	<li>MySQL 5 or greater.</li>
+	<li>Optional: PHP filesystem functions with <i>allow_url_fopen</i> enabled for Bit.ly integration.</li>
+</ul>
+
+<!-- INSTALL -->
+<h2>Install</h2>
+<ol>
+	<li>Upload the contents of the rikisimo folder to your server, make sure you upload the .htacces files, as this files may be hidden by your operating system or ftp client.</li>
+	<li>Point your browser to your server and enter your database name, username and password.</li>
+	<li>Register the first user as it will have admin permissions. You'll be redirected to the settings page.</li>
+</ol>
+<p>You can get a Google Maps API Key at <a href="http://code.google.com/apis/maps/signup.html">http://code.google.com/apis/maps/signup.html</a></p>
+<h2>Update</h2>
+<p>
+	If you are updating from a previous version backup all your data before doing anything. Run app/config/sql/update.sql in your database to update the scheme.
+</p>
+
+<h2>Rikisimo admin</h2>
+<p>
+First registered user will have admin permissions, so make sure to sign up your own user once the installation is done.
+</p>
+<h3>Settings</h3>
+<p>
+	In the admin panel you will find this settings:</p>
+	<ul>
+		<li><i>Application name</i>: sets the application name.</li>
+		<li><i>Slogan</i>: is used as default page title.</li>
+		<li><i>Admin email</i>: the email address used to send messages and notifications to the site admin.</li>
+		<li><i>System email</i>: the email address used to send notifications to users.</li>
+		<li><i>Language</i>: sets your web site language. Default is english (eng) but spanish (spa) translation is also included. See the translation section below to translate to your own language.</li> 
+		<li><i>Google Maps API key</i>: the google api key to use the maps in your site.</li>
+		<li><i>Bit.ly username and key</i>: if set the script will attempt to automatically create short urls for your restaurants so you can use it in twitter.</li>
+	</ul>
+		
+<!-- TRANSLATE -->		
+<h2>Translate</h2>
+<p>All translations are located in app/locale/. Default site language is english, and spanish translation is already included. If you need to translate it to your own language you can do so with just one .po file.</p>
+
+<p>
+To translate it into a new language just copy app/locale/spa and rename it according to your language iso639-2 code.
+</p>
+<pre>
+Example: 
+
+spanish		-> spa
+french		-> fre
+german		-> deu
+italian		-> ita
+portuguese	-> por
+</pre>
+<p>
+You can get it a list of language codes in <a href="http://www.loc.gov/standards/iso639-2/php/English_list.php">http://www.loc.gov/standards/iso639-2/php/English_list.php</a>.
+</p>
+<p>
+Then translate the file default.po into your language Translating the msgstr strings.
+</p>
+		
+<pre>
+Example:
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "Next"
+msgstr "Siguiente"
+</pre>
+		
+<p>
+<b>Note</b>: translate the msgstr string only and keep the msgid in english.
+</p>	
+<p>
+You can add your own strings to this file if you need to add new multilingual text in your site, then just use the function __(msgid) to translate strings in your html templates.
+</p>
+
+<!-- CUSTOMIZE -->		
+<h2>CUSTOMIZE</h2>
+<p>
+Css, javascript and images are placed in the app/webroot folder, but HTML templates are placed in app/views/.
+</p>
+<p>
+The folders you see in app/views/ contain HTML templates you can edit, and the most important one is the layouts/default.ctp file, wich is the main layout used in all the site. Admin uses a different layout named admin_default.ctp and you can edit this files as regular HTML code in any text editor.
+</p>
+<p>
+The homepage template is app/views/nodes/home.ctp
+</p>
+<p>
+The <i>About</i> and <i>Terms and conditions</i> pages are in the app/view/pages/ folder.
+</p>
+<p>You can also customize the PHP code if you need to. Rikisimo uses MVC provided by the <i>Cakephp framework</i>. Model files are located in app/models, Controllers in app/controllers, and views in app/views.</p>
+<h3>Badges</h3>
+<p>Users will get badges as they add new listings and reviews. The badges images are in the app/webroot/img and you can replace them all if needed. If you want to change the way they are assigned to the users you should take a look at the app/views/elements/user_badges.ctp file.</p>
+	
+<h2>BUGS</h2>
+<p>This script may contain code bugs, if you happen to find one contact me at ivanrise@gmail.com and I will do my best to fix it.</p>
+</div>
+</body>
+</html>
